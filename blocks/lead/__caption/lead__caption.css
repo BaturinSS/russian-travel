@@ -1,3 +1,16 @@
 .lead__caption {
-  
+  position: sticky;
+  max-width: 158px;
+  max-height: 14px;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  line-height: 14px;
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color:#FFFFFF;
+  border: 1px solid red;
 }
