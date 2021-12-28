@@ -11,3 +11,7 @@
   color: #FFFFFF;
   border: 1px solid red;
 }
+
+.website__link:hover {
+  opacity: 20%;
+}

@@ -8,3 +8,7 @@
   text-decoration: none;
   border: 1px solid red;
 }
+
+.header__lang-link:active {
+  text-decoration-line: underline;
+}
