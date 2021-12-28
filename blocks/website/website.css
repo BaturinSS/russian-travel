@@ -1,3 +1,10 @@
 .website {
-  
+  max-height: 46px;
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  grid-area: website;
+  border: 1px solid red;
 }

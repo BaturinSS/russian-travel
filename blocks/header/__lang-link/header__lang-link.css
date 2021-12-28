@@ -1,7 +1,5 @@
 .header__lang-link {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  margin-left: 18px;
   font-weight: 400;
   font-size: 24px;
   font-style: normal;
@@ -9,8 +7,4 @@
   color: #FFFFFF;
   text-decoration: none;
   border: 1px solid red;
-}
-
-.header__lang-link:nth-last-child(2) {
-  margin-right: 47px;
 }

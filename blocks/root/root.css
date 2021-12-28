@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'inter';
+  src: local('inter'),
+	url('../../fonts/Inter-Regular.woff2') format('woff2'),
+	url('../../fonts/Inter-Regular.woff') format('woff'),
+}
 .root {
   background-color: #2A2C2F;
   color: #FFFFFF;
   padding-top: 28px;
+  padding-bottom: 24px;
+  font-family: 'inter';
+  text-rendering: optimizeLegibility;
 }

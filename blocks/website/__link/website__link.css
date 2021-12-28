@@ -1,3 +1,13 @@
 .website__link {
-  
+  max-height: 22px;
+  max-width: 456px;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  border: 1px solid red;
 }

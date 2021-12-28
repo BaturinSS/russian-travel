@@ -1,3 +1,7 @@
 .cover__background {
-  
+  max-width: 1184px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
 }
