@@ -1,6 +1,6 @@
 .place__title {
   max-width: 460px;
-  max-height: 152px;
+  height: auto;
   grid-area: title;
   margin: 0;
   padding: 0;

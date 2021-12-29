@@ -1,15 +1,15 @@
 .cover__subtitle {
+  grid-row: 2/2;
+  grid-column: 1/1;
   z-index: 3;
   max-width: 360px;
   max-height: 66px;
-  margin: 0;
-  padding: 0;
   line-height: 22px;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  margin-top: 32px;
+  margin: 0;
   color:#FFFFFF;
   border: 1px solid red;
 }

@@ -6,7 +6,5 @@
   grid-template-rows: 1;
   align-items: flex-end;
   margin: auto;
-  max-width: 1184px;
-  max-height: 52px;
   border: 1px solid red;
 }

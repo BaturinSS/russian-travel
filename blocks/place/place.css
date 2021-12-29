@@ -1,6 +1,4 @@
 .place {
-  max-width: 984px;
-  max-height: 660px;
   display: grid;
   grid-template-areas:
   "title website"
