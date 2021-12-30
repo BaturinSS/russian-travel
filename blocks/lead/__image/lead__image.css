@@ -4,5 +4,6 @@
   margin-top: 64px;
   border: 0;
   object-fit: cover;
-  /*border: 1px solid red;*/
+  vertical-align: bottom;
+  border: 1px solid red;
 }

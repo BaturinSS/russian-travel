@@ -5,6 +5,7 @@
   height: auto;
   background: #2A2C2F;
   opacity: 70%;
+  vertical-align: bottom;
 }
 
 .cover__background:hover {
