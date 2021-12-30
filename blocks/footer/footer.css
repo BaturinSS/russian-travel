@@ -1,10 +1,11 @@
 .footer {
   max-width: 1184px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, min-content)) auto;
+  grid-template-columns: repeat(5, min-content) auto;
   grid-auto-flow: row;
-  justify-content: start;
   margin: auto;
   margin-top: 92px;
+  padding: 0 16px 0 16px;
+  gap: 32px 18px ;
   border: 1px solid red;
 }
