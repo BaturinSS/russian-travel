@@ -1,9 +1,9 @@
 .footer {
   max-width: 1184px;
-  max-height: 18px;
   display: grid;
-  grid-template-columns: repeat(5, min-content) auto;
-  grid-template-rows: 1;
+  grid-template-columns: repeat(auto-fit, min-content)) auto;
+  grid-auto-flow: row;
+  justify-content: start;
   margin: auto;
   margin-top: 92px;
   border: 1px solid red;
