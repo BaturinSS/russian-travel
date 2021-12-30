@@ -7,3 +7,15 @@
   margin-top: 92px;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+  margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+  margin-top: 66px;
+  }
+}
