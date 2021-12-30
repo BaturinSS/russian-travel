@@ -4,6 +4,10 @@
   max-height: 460px;
   height: auto;
   grid-area: image;
+<<<<<<< HEAD
   object-fit: cover;
   border: 1px solid red;
+=======
+  /*border: 1px solid red;*/
+>>>>>>> main
 }

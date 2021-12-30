@@ -1,5 +1,9 @@
 .photo-grid__item {
+<<<<<<< HEAD
   max-width: 100%;
   
+=======
+  max-width: 284px;
+>>>>>>> main
   /*border: 1px solid red;*/
 }

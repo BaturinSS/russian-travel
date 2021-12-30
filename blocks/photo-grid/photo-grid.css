@@ -6,6 +6,9 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-auto-flow: row;
   gap: 16px;
+<<<<<<< HEAD
   padding: 16px;
+=======
+>>>>>>> main
   /*border: 1px solid red;*/
 }
