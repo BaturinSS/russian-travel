@@ -1,5 +1,6 @@
 .place__paragraph {
   max-width: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
   line-height: 29.34px;
