@@ -12,3 +12,15 @@
   font-family: 'inter';
   text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 768px) {
+  .root {
+  padding-top: 22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .root {
+  padding-top: 16px;
+  }
+}

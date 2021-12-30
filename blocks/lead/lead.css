@@ -7,3 +7,9 @@
   margin-top: 56px;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 1280px) {
+  .lead {
+  margin-top: 48px;
+  }
+}

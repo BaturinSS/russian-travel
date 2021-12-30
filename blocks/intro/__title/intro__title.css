@@ -9,3 +9,11 @@
   color:#FFFFFF;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+  min-width: 288px;
+  line-height: 35px;
+  font-size: 32px;
+  }
+}

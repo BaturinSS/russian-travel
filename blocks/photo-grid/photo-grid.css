@@ -9,3 +9,15 @@
   padding: 16px;
   /*border: 1px solid red;*/
 }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+  margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+  margin-top: 64px;
+  }
+}

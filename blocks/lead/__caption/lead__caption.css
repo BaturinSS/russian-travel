@@ -12,3 +12,9 @@
   color:#FFFFFF;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}

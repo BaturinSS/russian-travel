@@ -7,3 +7,15 @@
   vertical-align: bottom;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 1280px) {
+  .lead__image {
+  margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+  margin-top: 40px;
+  }
+}
