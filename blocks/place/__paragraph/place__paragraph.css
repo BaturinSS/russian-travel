@@ -1,5 +1,4 @@
 .place__paragraph {
-  max-width: 484px;
   min-width: 352px;
   height: auto;
   padding: 0;
@@ -8,6 +7,18 @@
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
+  text-align: start;
+  align-self: flex-start;
+  
   color:#FFFFFF;
   border: 1px solid red;
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+  line-height: 26.08px;
+  font-size: 16px;
+  margin: 0 16px;
+  min-width: 288px;
+  }
 }

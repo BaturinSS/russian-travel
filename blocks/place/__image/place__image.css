@@ -1,9 +1,14 @@
 .place__image {
   max-width: 100%;
-  min-width: 340px;
-  max-height: 460px;
-  height: auto;
-  grid-area: image;
+  grid-row: 2/4;
+  grid-column: 1/1;
   object-fit: cover;
   border: 1px solid red;
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+  grid-row: 3/5;
+  grid-column: 1/1;
+  }
 }
