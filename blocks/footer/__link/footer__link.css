@@ -1,5 +1,4 @@
 .footer__link {
-  max-width: 100%;
   padding: 0;
   margin: 0;
   line-height: 18px;
@@ -10,3 +9,12 @@
   text-decoration: none;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    text-align: left;
+    line-height: 24px;
+    font-size: 24px;
+    max-width: min-content;
+    }
+  }

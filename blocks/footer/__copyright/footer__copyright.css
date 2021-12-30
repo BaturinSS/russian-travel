@@ -11,3 +11,13 @@
   color: #FFFFFF;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 768px) {
+.footer__copyright {
+  text-align: left;
+  line-height: 14px;
+  font-size: 14px;
+  max-width: min-content;
+  margin-top: 16px;
+  }
+}
