@@ -6,7 +6,7 @@
   border: 1px solid red;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__image {
   grid-row: 3/5;
   grid-column: 1/1;
