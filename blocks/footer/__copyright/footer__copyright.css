@@ -1,5 +1,5 @@
 .footer__copyright {
-  max-width: max-content;
+  min-width: max-content;
   padding: 0;
   margin: 0;
   line-height: 16px;
