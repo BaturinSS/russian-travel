@@ -7,12 +7,28 @@
   /*border: 1px solid red;*/
 }
 
+@media screen and (max-width: 1024px) {
+  .places {
+  padding: 0 24px 0 24px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .places {
   margin-top: 88px;
   gap: 73px;
+  padding: 0 24px 0 24px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .places {
+  margin-top: 88px;
+  gap: 73px;
+  padding: 0;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .places {

@@ -1,15 +1,16 @@
 .place__image {
   max-width: 100%;
-  min-width: 100%;
+  min-width: 320px;
   grid-row: 2/4;
   grid-column: 1/1;
   object-fit: cover;
   /*border: 1px solid red;*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .place__image {
   grid-row: 3/5;
   grid-column: 1/1;
+  min-width: 100%;
   }
 }
