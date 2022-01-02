@@ -9,7 +9,7 @@
   font-style: normal;
   text-align: right;
   color: #FFFFFF;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 @media screen and (max-width: 768px) {

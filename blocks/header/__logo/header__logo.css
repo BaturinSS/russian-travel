@@ -3,7 +3,7 @@
   width: 176px;
   background-size: cover;
   background-image: url(../../../images/header-logo.svg);
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 @media screen and (max-width: 768px) {

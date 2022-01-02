@@ -5,7 +5,7 @@
   border: 0;
   object-fit: cover;
   vertical-align: bottom;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 @media screen and (max-width: 1280px) {
