@@ -1,0 +1,23 @@
+.footer {
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(5, min-content) auto;
+  margin: auto;
+  margin-top: 92px;
+  padding: 0 16px 0 16px;
+  gap: 32px 18px ;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+  margin-top: 88px;
+  grid-template-columns: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+  margin-top: 64px;
+  }
+}
