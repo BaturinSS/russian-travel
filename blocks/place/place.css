@@ -1,5 +1,5 @@
 .place {
-  max-width: 100vh;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(auto-fit, 1fr);
