@@ -12,10 +12,9 @@
   /*border: 1px solid red;*/
 }
 
-.header__lang-link:hover {
-  opacity: 20%;
+/*.header__lang-link:hover {
   text-decoration-line: underline;
-}
+}*/
 
 /*.header__lang-link:active {
   text-decoration-line: underline;
