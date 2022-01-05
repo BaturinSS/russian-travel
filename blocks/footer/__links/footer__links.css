@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 700px) {
   .footer__links {
-  grid-template-columns: none
+  grid-template-columns: none;
   }
 }
