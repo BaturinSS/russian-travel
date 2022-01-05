@@ -13,13 +13,15 @@
   <div class="root">
     <header class="header">
       <div class="header__logo"></div>
-      <a class="header__lang-link" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
+      <ul class="header__lang-links">
+        <li class="header__list"><a class="header__lang-link header__lang-link_aktive" href="#">Ru</a></li>
+        <li class="header__list"><a class="header__lang-link" href="#">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <p class="lead__subtitle">Настоящая страна не в выпусках<br/>новостей, а здесь.</p>
         <img class="lead__image" src="./images/lead-polka.svg" alt="Карта путешествия">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -100,18 +102,20 @@
         </div>
       </section>
       <section class="cover">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        <h2 class="cover__title">До Байкала<br/>«на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе<br/>— путешествие от столицы до Байкала на электричках.</p>
         <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"><img class="cover__background" src="images/cover-trains.jpg" alt="фотография"></a>
       </section>
     </main>
     <footer class="footer">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-        <p class="footer__copyright">© 2021. Батурин Сергей</p>
+        <ul class="footer__links">
+          <li class="footer__list"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      <p class="footer__copyright">© 2021. Батурин Сергей</p>
     </footer>
   </div>
 </body>

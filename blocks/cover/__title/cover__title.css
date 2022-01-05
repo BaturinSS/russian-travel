@@ -2,7 +2,8 @@
   grid-row: 1/1;
   grid-column: 1/1;
   z-index: 3;
-  max-width: 500px;
+  max-width: 560px;
+  font-family: "Inter-Bold";
   line-height: 76px;
   font-size: 72px;
   font-weight: 900;
@@ -10,13 +11,14 @@
   text-align: center;
   align-self: flex-end;
   margin: 0;
+  padding: 0;
   color:#FFFFFF;
   /*border: 1px solid red;*/
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-  max-width: 250px;
+  max-width: 560px;
   line-height: 40px;
   font-size: 38px;
   }
@@ -24,7 +26,7 @@
 
 @media screen and (max-width: 320px) {
   .cover__title {
-  max-width: 220px;
+  max-width: 288px;
   line-height: 35px;
   font-size: 32px;
   }

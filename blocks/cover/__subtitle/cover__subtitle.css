@@ -4,27 +4,27 @@
   z-index: 3;
   max-width: 360px;
   max-height: 66px;
+  font-family: "Inter-Regular";
   line-height: 22px;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   margin: 0;
+  padding: 0;
   color:#FFFFFF;
   /*border: 1px solid red;*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .cover__subtitle{
-  max-width: 300px;
   line-height: 19px;
   font-size: 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .cover__subtitle {
-  max-width: 288px;
   line-height: 16px;
   font-size: 14px;
   }

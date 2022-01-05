@@ -3,6 +3,7 @@
   min-width: max-content;
   padding: 0;
   margin: 0;
+  font-family: "Inter-Regular";
   line-height: 16px;
   font-size: 14px;
   font-weight: 400;
@@ -18,6 +19,6 @@
   line-height: 14px;
   font-size: 14px;
   min-width: max-content;
-  margin-top: 16px;
+  margin-top: 48px;
   }
 }

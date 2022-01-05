@@ -4,10 +4,12 @@
   padding: 0;
   margin: 0;
   margin-top: 12px;
+  font-family: "Inter-Regular";
   line-height: 22px;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
+  text-decoration-line: underline;
   color: #FFFFFF;
   /*border: 1px solid red;*/
 }
