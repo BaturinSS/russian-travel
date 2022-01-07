@@ -1,5 +1,5 @@
 .website {
-  max-width: 100%;
+  max-width: 456px;
   grid-row: 1/1;
   grid-column: 2/2;
   display: flex;
@@ -7,11 +7,18 @@
   justify-content: space-between;
   align-items: flex-start;
   align-self: flex-end;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .website {
+  max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website {
+  max-width: 288px;
   grid-row: 2/2;
   grid-column: 1/1;
   margin: 0 16px;

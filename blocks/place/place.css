@@ -1,10 +1,31 @@
 .place {
-  max-width: 100%;
+  max-width: 984px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(auto-fit, 1fr);
   grid-auto-flow: row;
   margin: 0;
-  gap: 16px;
+  gap: 48px 40px;
   /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+  gap: 48px 32px;
+  max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+  gap: 48px 28px;
+  max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+  gap: 32px;
+  max-width: 320px;
+  }
 }

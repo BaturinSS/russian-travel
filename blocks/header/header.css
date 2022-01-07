@@ -2,6 +2,7 @@
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   margin: auto;
   /*border: 1px solid red;*/
 }

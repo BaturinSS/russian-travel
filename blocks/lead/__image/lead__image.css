@@ -1,20 +1,20 @@
 .lead__image {
+  max-width: 984px;
   margin: 0;
   padding: 0;
   margin-top: 64px;
   border: 0;
   object-fit: cover;
-  vertical-align: bottom;
   /*border: 1px solid red;*/
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
   margin-top: 56px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .lead__image {
   margin-top: 40px;
   }

@@ -1,0 +1,15 @@
+.place__list {
+  max-width: 100%;
+  display: grid;
+  gap: 27px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 768px) {
+  .place__list {
+  gap: 25px;
+  }
+}
