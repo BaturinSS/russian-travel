@@ -1,7 +1,7 @@
 .fonts {
 @font-face {
   font-family: "Inter";
-  font-weigh: 400;
+  font-weight: 400;
   src: local("Inter-Regular"),
   url("../../fonts/Inter-Regular.woff2") format("woff2"),
   url("../../fonts/Inter-Regular.woff") format("woff");
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Inter";
-  font-weigh: 900;
+  font-weight: 900;
   src: local("Inter-Black"),
   url("../../fonts/Inter-Black.woff2") format("woff2"),
   url("../../fonts/Inter-Black.woff") format("woff");
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Inter";
-  font-weigh: 700;
+  font-weight: 700;
   src: local("Inter-Bold"),
   url("../../fonts/Inter-Bold.woff2") format("woff2"),
   url("../../fonts/Inter-Bold.woff") format("woff");
