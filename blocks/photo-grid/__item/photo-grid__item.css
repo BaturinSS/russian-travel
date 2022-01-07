@@ -6,9 +6,21 @@
   /*border: 1px solid red;*/
 }
 
+@media screen and (max-width: 1278px) {
+  .photo-grid__item {
+  max-width: 100%;
+}
+}
+
 @media screen and (max-width: 1024px) {
   .photo-grid__item {
   max-width: 300px;
+}
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid__item {
+  max-width: 100%;
 }
 }
 
@@ -18,8 +30,20 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+  max-width: 100%;
+}
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid__item {
   max-width: 288px;
   }
+}
+
+@media screen and (max-width: 319px) {
+  .photo-grid__item {
+  max-width: 100%;
+}
 }

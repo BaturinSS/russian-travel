@@ -20,9 +20,16 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place__image {
   grid-row: 3/5;
+  max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+  /*grid-row: 3/5;*/
   max-width: 320px;
   }
 }
