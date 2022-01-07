@@ -8,7 +8,7 @@
   align-items: center;
   background-image: url(../../../images/cover-trains.jpg);
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
   z-index: 1;
@@ -29,5 +29,4 @@
 
 .cover__overlay:hover {
   opacity: 20%;
-  z-index: 3;
 }
