@@ -10,12 +10,26 @@
   /*border: 1px solid red;*/
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .cover {
   width: 100%;
+  height: calc((740 / 1184) * 100vw);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
   height: 640px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .cover {
+  width: 100%;
+  height: calc((740 / 1184) * 100vw);
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .cover {
@@ -24,9 +38,23 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .cover {
+  width: 100%;
+  height: calc((740 / 1184) * 100vw);
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover {
   margin-top: 66px;
   height: 200px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .cover {
+  width: 100%;
+  height: calc((740 / 1184) * 100vw);
   }
 }
