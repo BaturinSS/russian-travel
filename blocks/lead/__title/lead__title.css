@@ -37,6 +37,7 @@
   .lead__title {
   line-height: 44px;
   font-size: 40px;
+  max-width: 288px;
   }
 }
 
