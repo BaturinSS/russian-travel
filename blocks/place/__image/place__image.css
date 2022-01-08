@@ -1,7 +1,7 @@
 .place__image {
   max-width: 460px;
   min-width: 320px;
-  grid-row: 2/4;
+  grid-row: 2/3;
   grid-column: 1/1;
   object-fit: cover;
   border: 0;
