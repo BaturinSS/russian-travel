@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__image {
-  max-width: calc((460 / 460) * 50vw);
+  max-width: calc((460 / 460) * 45vw);
   }
 }
 
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 767px) {
   .place__image {
-  max-width: calc((460 / 460) * 50vw);
+  max-width: calc((460 / 460) * 45vw);
   }
 }
 
