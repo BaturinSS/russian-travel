@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   vertical-align: bottom;
+  object-fit: cover;
   /*border: 1px solid red;*/
 }
 
