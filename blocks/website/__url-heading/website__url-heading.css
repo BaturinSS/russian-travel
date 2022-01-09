@@ -13,7 +13,7 @@
   /*border: 1px solid red;*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .website__url-heading {
   line-height: 12px;
   }
