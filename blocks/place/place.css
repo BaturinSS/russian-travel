@@ -1,5 +1,5 @@
 .place {
-  max-width: 984px;
+  /*max-width: 100%;*/
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(auto-fit, 1fr);
@@ -13,20 +13,20 @@
 @media screen and (max-width: 1024px) {
   .place {
   gap: 48px 32px;
-  max-width: 928px;
+  /*max-width: 928px;*/
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
   gap: 48px 28px;
-  max-width: 720px;
+  /*max-width: 720px;*/
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
   gap: 32px;
-  max-width: 320px;
+  /*max-width: 320px;*/
   }
 }
