@@ -10,6 +10,7 @@
   font-style: normal;
   text-decoration-line: underline;
   color: #FFFFFF;
+  transition: 1s;
   /*border: 1px solid red;*/
 }
 
