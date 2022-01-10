@@ -1,6 +1,5 @@
 .footer__copyright {
-  max-width: 186px;
-  min-width: max-content;
+  max-width: max-content;
   padding: 0;
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
