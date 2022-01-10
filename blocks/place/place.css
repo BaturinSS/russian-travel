@@ -3,27 +3,26 @@
   display: grid;
   margin: 0;
   padding: 0;
-  gap: 48px 40px;
+  row-gap: 48px;
+  column-gap: 40px;
+  /*gap: 48px 40px;*/
   /*border: 1px solid red;*/
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-  gap: 48px 32px;
-  /*max-width: 928px;*/
+  column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-  gap: 48px 28px;
-  /*max-width: 720px;*/
+  column-gap: 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
   gap: 32px;
-  /*max-width: 320px;*/
   }
 }
