@@ -13,13 +13,13 @@
 
 @media screen and (max-width: 700px) {
   .footer__link {
-    text-align: left;
-    line-height: 24px;
-    font-size: 24px;
-    max-width: min-content;
-    }
+  text-align: left;
+  line-height: 24px;
+  font-size: 24px;
+  max-width: min-content;
   }
+}
 
-  .footer__link:hover {
+.footer__link:hover {
   opacity: 20%;
-  }
+}
