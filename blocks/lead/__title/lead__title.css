@@ -14,30 +14,30 @@
 
 @media screen and (max-width: 730px) {
   .lead__title {
-  line-height: 98px;
-  font-size: 90px;
+    line-height: 98px;
+    font-size: 90px;
   }
 }
 
 @media screen and (max-width: 665px) {
   .lead__title {
-  line-height: 88px;
-  font-size: 80px;
+    line-height: 88px;
+    font-size: 80px;
   }
 }
 
 @media screen and (max-width: 586px) {
   .lead__title {
-  line-height: 77px;
-  font-size: 70px;
+    line-height: 77px;
+    font-size: 70px;
   }
 }
 
 @media screen and (max-width: 493px) {
   .lead__title {
-  line-height: 44px;
-  font-size: 40px;
-  max-width: 288px;
+    line-height: 44px;
+    font-size: 40px;
+    max-width: 288px;
   }
 }
 

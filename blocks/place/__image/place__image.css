@@ -10,37 +10,37 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-  max-width: 440px;
+    max-width: 440px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__image {
-  max-width: calc((460 / 460) * 45vw);
+    max-width: calc((460 / 460) * 45vw);
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-  max-width: 340px;
+    max-width: 340px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__image {
-  max-width: calc((460 / 460) * 45vw);
+    max-width: calc((460 / 460) * 45vw);
   }
 }
 
 @media screen and (max-width: 635px) {
   .place__image {
-  grid-row: 3/3;
-  max-width: 100%;
+    grid-row: 3/3;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
-  max-width: 320px;
+    max-width: 320px;
   }
 }

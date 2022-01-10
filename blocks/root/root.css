@@ -9,12 +9,12 @@
 
 @media screen and (max-width: 768px) {
   .root {
-  padding-top: 22px;
+    padding-top: 22px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .root {
-  padding-top: 16px;
+    padding-top: 16px;
   }
 }

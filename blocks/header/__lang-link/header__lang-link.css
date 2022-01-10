@@ -18,14 +18,14 @@
 
 @media screen and (max-width: 700px) {
   .header__lang-link {
-  font-size: 21px;
-  line-height: 24px;
+    font-size: 21px;
+    line-height: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-  font-size: 18px;
-  line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
