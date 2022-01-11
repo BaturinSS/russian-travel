@@ -1,6 +1,6 @@
 .cover__overlay {
-  width: 100%;
-  height: 100%;
+  width: 1184px;
+  min-height: 740px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,12 @@
   text-decoration: none;
   z-index: 1;
   /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__overlay {
+    min-height: calc((740 / 1184) * 100vw);
+  }
 }
 
 .cover__overlay::before {
