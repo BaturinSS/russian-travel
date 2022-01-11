@@ -1,7 +1,8 @@
 .footer__links {
   max-width: max-content;
-  display: grid;
-  grid-template-columns: repeat(5, min-content);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   gap: 32px 18px;
   padding: 0;
   margin: 0;
@@ -11,6 +12,6 @@
 
 @media screen and (max-width: 767px) {
   .footer__links {
-    grid-template-columns: none;
+    flex-direction: column;
   }
 }
