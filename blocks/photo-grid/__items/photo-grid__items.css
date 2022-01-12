@@ -1,5 +1,5 @@
 .photo-grid__items {
-  max-width: 100%;
+  max-width: 1184px;
   display: grid;
   margin: 0;
   padding: 0;
@@ -9,4 +9,22 @@
   border: 0;
   list-style-type: none;
   /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__items {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__items {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__items {
+    max-width: 288px;
+  }
 }
