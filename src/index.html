@@ -4,10 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pages/index.css">
   <title>Путешествия по России</title>
   <meta name="description" content="Портфолио Сергея Батурина на Яндекс.Практикуме">
-  <meta name="keywords" content="html, css, javascript">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="author" content="Сергей Батурин">
 </head>
 
@@ -25,7 +24,7 @@
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__figure">
-          <img class="lead__image" src="./images/lead-polka.svg" alt="Карта путешествия">
+          <img class="lead__image" src="<%=require('./images/lead-polka.svg')%>" alt="Карта путешествия">
           <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
         </figure>
       </section>
@@ -47,24 +46,29 @@
       </section>
       <section class="photo-grid">
         <ul class="photo-grid__items">
-          <li><img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="фотография"></li>
-          <li><img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-train.jpg')%>" alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-atharva-tulsi.jpg')%>"
+              alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-tuman.jpg')%>" alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-sochi.jpg')%>" alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-arisa.jpg')%>" alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-baikal.jpg')%>" alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-elbrus.jpg')%>" alt="фотография"></li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-kondratiev.jpg')%>" alt="фотография">
+          </li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-kamchatka-1.jpg')%>" alt="фотография">
+          </li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-kamchatka-2.jpg')%>" alt="фотография">
+          </li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-baikal-2.jpg')%>" alt="фотография">
+          </li>
+          <li><img class="photo-grid__item" src="<%=require('./images/photo-grid-ergaki.jpg')%>" alt="фотография"></li>
         </ul>
       </section>
       <section class="places">
         <article class="place">
           <h3 class="place__title">Куршская коса</h3>
-          <img class="place__image" src="./images/place-kosa.jpg" alt="фотография">
+          <img class="place__image" src="<%=require('./images/place-kosa.jpg')%>" alt="фотография">
           <div class="website">
             <p class="website__url-heading">URL</p>
             <a class="website__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -85,7 +89,7 @@
         </article>
         <article class="place">
           <h3 class="place__title">Кольский</h3>
-          <img class="place__image" src="./images/place-kolsky.jpg" alt="фотография">
+          <img class="place__image" src="<%=require('./images/place-kolsky.jpg')%>" alt="фотография">
           <div class="website">
             <p class="website__url-heading">URL</p>
             <a class="website__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -107,7 +111,7 @@
         </article>
         <article class="place">
           <h3 class="place__title">Алтай</h3>
-          <img class="place__image" src="./images/place-altai.jpg" alt="фотография">
+          <img class="place__image" src="<%=require('./images/place-altai.jpg')%>" alt="фотография">
           <div class="website">
             <p class="website__url-heading">URL</p>
             <a class="website__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
@@ -128,7 +132,7 @@
         </article>
         <article class="place">
           <h3 class="place__title">Зимний Байкал</h3>
-          <img class="place__image" src="./images/place-winter-baikal.jpg" alt="фотография">
+          <img class="place__image" src="<%=require('./images/place-winter-baikal.jpg')%>" alt="фотография">
           <div class="website">
             <p class="website__url-heading">URL</p>
             <a class="website__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
@@ -148,7 +152,7 @@
         </article>
         <article class="place">
           <h3 class="place__title">Карелия</h3>
-          <img class="place__image" src="./images/place-karelia.jpg" alt="фотография">
+          <img class="place__image" src="<%=require('./images/place-karelia.jpg')%>" alt="фотография">
           <div class="website">
             <p class="website__url-heading">URL</p>
             <a class="website__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
