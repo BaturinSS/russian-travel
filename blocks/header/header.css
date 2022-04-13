@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .header{
+  .header {
     margin: 0 48px 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header{
+  .header {
     margin: 0 24px 0 24px;
   }
 }
