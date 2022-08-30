@@ -1,7 +1,6 @@
 ## [Проект: russian-travel](https://baturinss.github.io/russian-travel)
 
-https://user-images.githubusercontent.com/94468513/163472443-f1a063a0-2b60-457f-82a3-61f67db4c729.mp4
-
+[Видео. Краткий обзор](https://user-images.githubusercontent.com/94468513/187539193-7846853e-7116-4a2a-bcb8-e7d29a312f67.mp4)
 
 ### 🌕 Краткое описание:   
 
